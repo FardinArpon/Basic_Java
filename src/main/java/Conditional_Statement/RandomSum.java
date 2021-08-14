@@ -9,7 +9,7 @@ package Loop;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Random_Sum {
+public class RandomSum {
     public static void main(String[] args) {
         Random rand = new Random(); //instance of random class
 

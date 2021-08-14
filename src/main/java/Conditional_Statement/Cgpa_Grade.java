@@ -55,18 +55,18 @@ public class Cgpa_Grade {
 
         for (int i = 0; i < 4; i++) {
             int n = i + 1;
-            System.out.print("Input mark of subject_" + n + ": ");
+            System.out.print("\nInput mark of subject_" + n + ": ");
             marks[i] = to_gpa(input.nextDouble());
-            System.out.println("Gread of subject_" + n + ": " + marks[i]);
+            System.out.println(" Gpa of subject_" + n + ": " + marks[i]);
 //            System.out.print("Input credit of subject_" + n + ": ");
 //            credit[i] = input.nextDouble();
-            System.out.println("Gread of subject_" + i + ": " + grade);
+            System.out.println("Gread of subject_" + n + ": " + grade);
 
             total = total + (marks[i] * credit);
             total_credit += credit;
 
         }
         double CGPA = total / total_credit;
-        System.out.println("CGPA: " + CGPA);
+        System.out.println("\nCGPA: " + CGPA);
     }
 }
