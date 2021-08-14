@@ -37,9 +37,9 @@ public class RandomSum {
 
             if (output == sum) {
                 point++;
-                System.out.println("Correct! \n");
+                System.out.println("Correct!! \n");
             } else {
-                System.out.println("Wrong! \n");
+                System.out.println("Wrong!! \n");
 
             }
         }
