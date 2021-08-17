@@ -4,12 +4,12 @@
  print "Answer is correct" and user will get 1 point. if user inputs wrong summation,
  then user will get 0 point. Finally after 5 iteration, total score will be shown */
 
-package Loop;
+package While_DoWhile_loop_String;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class Random_Sum {
+public class RandomSum {
     public static void main(String[] args) {
         Random rand = new Random(); //instance of random class
 
@@ -37,9 +37,9 @@ public class Random_Sum {
 
             if (output == sum) {
                 point++;
-                System.out.println("Correct! \n");
+                System.out.println("Correct!! \n");
             } else {
-                System.out.println("Wrong! \n");
+                System.out.println("Wrong!! \n");
 
             }
         }

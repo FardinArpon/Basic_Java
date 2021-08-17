@@ -5,7 +5,7 @@
  10*2=20
  10*3=20*/
 
-package Conditional_Statement;
+package Conditional_Statement_and_ForLoop;
 import java.util.Scanner;
 public class MutliplacationTable {
         public static void main(String args[])

@@ -2,7 +2,7 @@
 /* Write a program to calculate CGPA and find grade from 4 subjects
  (GPA will based upon your university)    */
 
-package Conditional_Statement;
+package Conditional_Statement_and_ForLoop;
 
 import java.util.Scanner;
 

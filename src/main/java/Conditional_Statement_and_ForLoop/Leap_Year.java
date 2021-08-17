@@ -3,7 +3,7 @@
 print whether that year is a leap
  */
 
-package Conditional_Statement;
+package Conditional_Statement_and_ForLoop;
 import java.util.Scanner;
 
 public class Leap_Year {

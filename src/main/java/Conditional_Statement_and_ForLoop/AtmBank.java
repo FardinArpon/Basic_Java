@@ -2,7 +2,7 @@
 /*Write a program to check balance and withdraw money from ATM booth using switch case and if else
  (1. Check balance 2. Withdraw Money)*/
 
-package Conditional_Statement;
+package Conditional_Statement_and_ForLoop;
 
 import java.util.Scanner;
 public class AtmBank {
