@@ -467,7 +467,7 @@ public class Calculator extends JFrame {
         }
         return 0;
     }
-// This Section for EQUAL= Button=======================================================================================
+// This Section For EQUAL= Button=======================================================================================
 
     public static void main(String[] args) {
         Calculator frame = new Calculator();
