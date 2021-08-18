@@ -9,16 +9,23 @@ import java.util.Scanner;
 
 public class Digital_Tasbih {
     public static void main(String[] args) {
-        int sum = 0;
-        System.out.println("   Press Enter! ");
-        Scanner scanner = new Scanner(System.in);
 
-        while (true) {
-            String line = scanner.nextLine();
-            sum += 1;
-            System.out.println(sum);
+            int sum = 0;
+            System.out.println("   Press Enter! ");
+            Scanner scanner = new Scanner(System.in);
+
+            while (true) {
+                String line = scanner.nextLine();
+                sum += 1;
+                if(line.equals("0"))
+                {
+                    break;
+                }
+                else
+                {
+                    System.out.println(sum);
+                }
+            }
+
         }
-
     }
-}
-
