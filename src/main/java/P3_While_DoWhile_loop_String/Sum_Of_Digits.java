@@ -1,3 +1,8 @@
+
+/*Write a program to show range of prime numbers from 2 to n using while loop
+ [n is the number by user input]
+ */
+
 package P3_While_DoWhile_loop_String;
 
 import java.util.Scanner;
