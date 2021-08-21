@@ -9,7 +9,7 @@ public class N4_Find_Array_pos {
         int[] numbers = {10, 5, 2, 3, 2, 7, 7, 15, 10};
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Input a number to match=");
+        System.out.print("Input a number to match=");
         int search_value = scanner.nextInt();
 
         System.out.println("Position: "+findMatching(numbers, search_value));
@@ -26,11 +26,8 @@ public class N4_Find_Array_pos {
                 break;
             }
         }
-
-//         for (i=0; i<numbers.length; i++)
-//        {
-//            System.out.println(numbers[i]);
-//        }
+         for (i=0; i<numbers.length; i++)
+             System.out.println(numbers[i]);
         return position;
     }
 }
