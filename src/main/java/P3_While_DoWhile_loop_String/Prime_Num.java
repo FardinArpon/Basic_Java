@@ -12,8 +12,8 @@ public class Prime_Num {
         int high = scan.nextInt();
         int low = 2;
 
-        while (low < high) {
-            boolean flag = false;
+//        while (low < high
+        { boolean flag = false;
 
             for (int i = 2; i <= low / 2; ++i) {
                 // condition for nonprime number
