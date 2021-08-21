@@ -7,24 +7,17 @@ import java.util.Scanner;
 
 public class N3_Duplicate_Value {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int user = scan.nextInt();
-        System.out.println(user);
-        int arr[] = new int[user];
-        int darr[] = new int[user];
-        int dindex = 0;
-        for (int i = 0; i < arr.length - 1; i++) {
-            arr[i] = scan.nextInt();
-        }
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = i + 1; j < arr.length - 1; j++) {
-                if (arr[i] == arr[j]) {
-                    darr[dindex] = arr[i];
-                    dindex++;
-                }
+        int[] numbers = {10, 5, 2, 3, 2, 7, 7, 15, 10};
+        Arrays.sort(numbers);
+        int i, j, counter=0;
+
+        for (i=0; i<numbers.length; i++)
+        {
+            for (j=i+1; j<numbers.length; j++)
+            {
+                if(numbers[i] == numbers[j])
+                    System.out.print(numbers[i]+" ");
             }
         }
-        System.out.println(Arrays.toString(darr));
     }
 }
-
